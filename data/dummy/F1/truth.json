@@ -1,0 +1,7 @@
+{
+  "fault": "RINEX truncated below 2000 epochs",
+  "action": "EXCLUDE_STATION",
+  "station": "SFER",
+  "rerun_from": "PID_311",
+  "reason": "SFER has only 847 epochs (threshold 2000) and residual RMS 47.1 mm. Exclude and rerun from phase preprocessing."
+}

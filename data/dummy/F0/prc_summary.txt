@@ -1,0 +1,28 @@
+BPE SESSION SUMMARY - F0 (clean baseline)
+Day: 2026-324   Stations: RABT MAS1 SFER YEBE LPAL
+
+PID 013 COOVEL   OK   A priori coordinates loaded (5 stations)
+PID 101 POLUPD   OK   ERP applied
+PID 112 ORBGEN   OK   IGS final orbits
+PID 113 SATCLK   OK   Satellite clocks
+PID 221 RXOBV3   OK   RINEX imported: 5 stations
+  RABT  epochs=2880  ok
+  MAS1  epochs=2880  ok
+  SFER  epochs=2879  ok
+  YEBE  epochs=2880  ok
+  LPAL  epochs=2878  ok
+PID 231 CODSPP   OK   Code clocks: RMS=0.38 ns
+PID 301 INIT_BSL OK   Baselines
+PID 311 MAUPRPAP OK   Phase preprocessing passed
+  RABT  residual_rms=1.8 mm  ok
+  MAS1  residual_rms=2.1 mm  ok
+  SFER  residual_rms=1.9 mm  ok
+  YEBE  residual_rms=2.3 mm  ok
+  LPAL  residual_rms=2.0 mm  ok
+PID 321 GPSEDTAP OK   GPS editing
+PID 341 ADDNEQ2  OK   NEQ combination: sigma0=0.0031
+PID 401 SATMRK   OK
+PID 411 GNSAMBAP OK   Ambiguity resolution: 94.2 %
+PID 501 GPSCLUAP OK   Final solution
+PID 511 ADDNEQ2  OK   NEQ fixed: sigma0=0.0029
+PID 901 CC_SAVE  OK   Results saved

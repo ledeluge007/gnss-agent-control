@@ -1,0 +1,7 @@
+{
+  "fault": "wrong antenna height (+25 mm) for YEBE in STA file",
+  "action": "EXCLUDE_STATION",
+  "station": "YEBE",
+  "rerun_from": "PID_311",
+  "reason": "YEBE coordinates shifted ~24 mm vertically vs F0 baseline (expected noise < 5 mm). Wrong antenna height in STA file. Exclude and rerun."
+}

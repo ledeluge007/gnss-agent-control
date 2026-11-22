@@ -1,0 +1,22 @@
+BPE SESSION SUMMARY - F1 (fault: SFER RINEX truncated below 2000 epochs)
+Day: 2026-324   Stations: RABT MAS1 SFER YEBE LPAL
+
+PID 013 COOVEL   OK   A priori coordinates loaded (5 stations)
+PID 101 POLUPD   OK   ERP applied
+PID 112 ORBGEN   OK   IGS final orbits
+PID 113 SATCLK   OK   Satellite clocks
+PID 221 RXOBV3   OK   RINEX imported: 5 stations
+  RABT  epochs=2880  ok
+  MAS1  epochs=2880  ok
+  SFER  epochs=847   WARNING below threshold 2000
+  YEBE  epochs=2880  ok
+  LPAL  epochs=2878  ok
+PID 231 CODSPP   OK   Code clocks: RMS=0.41 ns
+PID 301 INIT_BSL OK   Baselines
+PID 311 MAUPRPAP FAIL Phase preprocessing failed
+  RABT  residual_rms=1.9 mm  ok
+  MAS1  residual_rms=2.2 mm  ok
+  SFER  residual_rms=47.1 mm  FAIL exceeds 3 mm threshold
+  YEBE  residual_rms=2.4 mm  ok
+  LPAL  residual_rms=2.0 mm  ok
+  ERROR: SFER has only 847 valid epochs (threshold=2000); phase preprocessing cannot converge

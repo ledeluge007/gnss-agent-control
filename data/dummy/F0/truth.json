@@ -1,0 +1,6 @@
+{
+  "fault": "none",
+  "action": "ACCEPT",
+  "station": null,
+  "reason": "Clean run. All stations have >= 2000 epochs, all residuals <= 3 mm, coordinates agree with reference."
+}

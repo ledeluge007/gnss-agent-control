@@ -1,0 +1,12 @@
+{
+  "_note": "YEBE vertical component shifted +24.3 mm vs F0 baseline due to wrong antenna height (+25 mm in STA file). Horizontal components unaffected.",
+  "session": "2026-324",
+  "stations": {
+    "RABT": {"X_m": 5255766.741, "Y_m": -554955.082, "Z_m": 3444655.123, "sX_mm": 1.1, "sY_mm": 0.9, "sZ_mm": 2.0},
+    "MAS1": {"X_m": 5439191.023, "Y_m": -1522055.871, "Z_m": 2953458.561, "sX_mm": 1.2, "sY_mm": 1.0, "sZ_mm": 2.2},
+    "SFER": {"X_m": 5105527.082, "Y_m": -555142.618, "Z_m": 3769802.479, "sX_mm": 1.1, "sY_mm": 0.9, "sZ_mm": 2.1},
+    "YEBE": {"X_m": 4887083.954, "Y_m": -261642.741, "Z_m": 3990331.051, "sX_mm": 1.3, "sY_mm": 1.1, "sZ_mm": 2.5,
+             "_delta_vs_F0_mm": {"dX": 13.0, "dY": 13.0, "dU": 24.3, "_note": "vertical jump ~24 mm from +25 mm antenna height error"}},
+    "LPAL": {"X_m": 5439570.489, "Y_m": -1812538.741, "Z_m": 2755795.638, "sX_mm": 1.0, "sY_mm": 0.9, "sZ_mm": 1.9}
+  }
+}

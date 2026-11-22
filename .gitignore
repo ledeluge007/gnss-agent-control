@@ -1,0 +1,40 @@
+# LLM disk cache — may contain API responses referencing run data
+.llm_cache/
+
+# Real Bernese outputs — confidential, never commit
+data/runs/*/
+
+# Real experiment results — commit only when you are ready to publish
+results/results.csv
+results/cases.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Secrets and environment files
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
